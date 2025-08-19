@@ -1,11 +1,12 @@
+
+
 class Doctor:
-    def __init__(self, id, first_name, last_name, specialization, email, password):
-        self.id = id
-        self.first_name = first_name
-        self.last_name = last_name
-        self.specialization = specialization
-        self.email = email
-        self.password = password
+    def __init__(self):
+        self.id:str
+        self.first_name:str
+        self.last_name:str
+        self.email:str
+        self.password:str
 
     @property
     def id(self):
@@ -30,14 +31,6 @@ class Doctor:
     @last_name.setter
     def last_name(self, last_name):
         self.last_name = last_name
-
-    @property
-    def specialization(self):
-        return self.specialization
-
-    @specialization.setter
-    def specialization(self, specialization):
-        self.specialization = specialization
 
 
     @property

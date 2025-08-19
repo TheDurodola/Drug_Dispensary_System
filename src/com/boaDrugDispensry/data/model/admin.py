@@ -1,7 +1,7 @@
 class Admin:
     def __init__(self, ):
-        self._username = ""
-        self._password = ""
+        self._username:str
+        self._password:str
 
     @property
     def username(self):
