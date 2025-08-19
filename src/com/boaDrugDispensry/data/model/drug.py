@@ -6,14 +6,11 @@ class Drug:
         self._quantity = None
         self._id = None
         self._name = None
-        self._id:int
-        self._name:str
-        self._type = 0
-        self._category = 0
-        self._expiry_date:datetime = None
-        self._manufactured_date:datetime = None
+        self._name: str
+        self._expiry_date: datetime = None
+        self._manufactured_date: datetime = None
         self._date_added:datetime = datetime.datetime.now()
-        self._quantity:int
+        self._quantity: int
 
 
     @property
