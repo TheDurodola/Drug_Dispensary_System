@@ -2,11 +2,11 @@
 
 class Doctor:
     def __init__(self):
-        self.id:str
-        self.first_name:str
-        self.last_name:str
-        self.email:str
-        self.password:str
+        self._id: str
+        self.__first_name: str
+        self.__last_name: str
+        self.__email: str
+        self.__password: str
 
     @property
     def id(self):
